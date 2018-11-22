@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "DIMENTION GREENTEC 2", "DIMENTION GREENTEC 2\DIMENTION GREENTEC 2.dtproj", "{34773028-72C3-4DCB-A047-F6AF74B5B863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34773028-72C3-4DCB-A047-F6AF74B5B863}.Development|Default.ActiveCfg = Development
+		{34773028-72C3-4DCB-A047-F6AF74B5B863}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

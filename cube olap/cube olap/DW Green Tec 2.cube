@@ -1,0 +1,330 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="732f048b-8da4-4881-b1ac-4cae50eb6724" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW Green Tec 2</ID>
+  <Name>DW Green Tec 2</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="9bccaa1c-735b-4404-9acd-24b0c7781ed3">
+      <ID>COSTOS GASTOS UTILIDADES</ID>
+      <Name>COSTOS GASTOS UTILIDADES</Name>
+      <DimensionID>COSTOS GASTOS UTILIDADES</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6492cc14-0ee8-4612-88dc-62901b6e9019">
+          <AttributeID>Id Fact</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7320cb64-94d1-42b4-968d-7731d516962c">
+          <AttributeID>Ventas</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eb3d3585-0edf-43d1-a11f-9dc9262ed331">
+          <AttributeID>Gastos</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f042e9b4-43db-4c49-b662-11386536ee49">
+          <AttributeID>Utilidades</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72b328db-0c67-4e47-9747-cf03d1dd565b">
+          <AttributeID>Id Alojamiento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77685601-89da-437d-92f0-63b9b457e501">
+          <AttributeID>Id Excursion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e057fe6f-43a3-44e3-bfc2-5933ae690e53">
+          <AttributeID>Id Parque</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c088e79f-49c6-48fc-80b8-ea0c6c3b351d">
+          <AttributeID>Id Empresa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2267ca05-6086-422a-8629-9ae18b2f889d">
+          <AttributeID>Id Tiempo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="47a870b2-4290-4fa4-8e61-8ed824e6b4d9">
+      <ID>Excursion</ID>
+      <Name>Excursion</Name>
+      <DimensionID>Excursion</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="455c1247-094e-42bf-aecf-222c6ab1c5f2">
+          <AttributeID>id_Excursion</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="be925aac-0ee0-4f7a-a3f2-987daba42c93">
+      <ID>Parque</ID>
+      <Name>Parque</Name>
+      <DimensionID>Parque</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="26b4fca1-3460-447f-b5fd-d60ddced09e8">
+          <AttributeID>id_Parque</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a099a36-1a3d-49ab-86fa-283e71ce2045">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="442b3882-0480-4716-86df-03bf4b51ea24">
+      <ID>Empresa</ID>
+      <Name>Empresa</Name>
+      <DimensionID>Empresa</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="74da2087-d604-4fbe-9aa1-5f7f0bcdaed5">
+          <AttributeID>id_Empresa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2830aeb0-20f7-4166-a1c1-dddf6f089a6b">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7c11ec42-8c13-4d5f-96c6-5fb75d63b64e">
+      <ID>Tiempo</ID>
+      <Name>Tiempo</Name>
+      <DimensionID>Tiempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4b25902d-33cb-4943-a686-9e8a17605a2e">
+          <AttributeID>id_Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8d123153-1926-4c75-9f94-b8c94b78f56c">
+          <AttributeID>Anio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a53523e5-8087-4dcf-afc4-d6d886ca43ca">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3abb1310-8f30-47c4-9327-8b9c28832614">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8c849a0e-7004-49c3-b423-3e51673aee43">
+          <AttributeID>Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="44863fe6-13b9-476f-ba6c-0fbaea4fa320">
+          <AttributeID>MESES</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="bdf01425-3ccf-4a9b-8e9a-d5b530d59186">
+      <ID>Alojamiento</ID>
+      <Name>Alojamiento</Name>
+      <DimensionID>Alojamiento</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0550f9e4-6810-4f57-972b-1e2fad585bf5">
+          <AttributeID>id_Alojamiento</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="7306d7c1-3137-45d3-82df-3e578e6aec67">
+      <ID>COSTOS GASTOS UTILIDADES</ID>
+      <Name>COSTOS GASTOS UTILIDADES</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e0cfec82-38a4-4ed9-984f-b99c99ddf0c5">
+          <ID>Ventas</ID>
+          <Name>Ventas</Name>
+          <Source dwd:design-time-name="0ec2a2c0-d953-4eec-8127-8444ffc1c459">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9d60f2d3-3a24-4568-ae51-559e52e6d764">
+              <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+              <ColumnID>ventas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9f411af6-e149-42e9-9d4e-0c4fb4733084">
+          <ID>Gastos</ID>
+          <Name>Gastos</Name>
+          <Source dwd:design-time-name="a9f4615e-057b-4e4a-a361-8ca62ed8fbaf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a13369b2-161b-4c15-a046-9c8d0a3c9357">
+              <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+              <ColumnID>gastos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b0a4ca80-eab0-4e09-9439-2446723f9ea9">
+          <ID>Utilidades</ID>
+          <Name>Utilidades</Name>
+          <Source dwd:design-time-name="312a8f92-c557-41b6-9807-059922b1f31c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="465a54cb-57bd-4bee-bce2-a3d53c7c6abe">
+              <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+              <ColumnID>utilidades</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7b66c1f2-9320-45f7-b002-76620e551542">
+          <ID>COSTOS GASTOS UTILIDADES Count</ID>
+          <Name>COSTOS GASTOS UTILIDADES Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="dac1f51a-fa16-4662-95c9-591b3f0b79e6">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="6f528f63-0636-4125-bb7a-b66e3ebf15e1">
+              <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="98db84a8-beaf-4b27-8fd9-1963eabf8b17">
+          <CubeDimensionID>COSTOS GASTOS UTILIDADES</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f14c85de-48ea-44b6-97db-193ec7f7848b">
+              <AttributeID>Id Fact</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0779d811-3d72-4033-93d2-9f21e5aff87c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="56229b81-3b9c-49d1-bf27-302f3b2d6e55">
+                    <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+                    <ColumnID>id_fact</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4b8312c5-4105-496c-9fda-9dff6fecd92a">
+          <CubeDimensionID>Alojamiento</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f7c8d024-c942-4ace-8333-aebf14308768">
+              <AttributeID>id_Alojamiento</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="57cc405b-5eb2-43e5-9cca-41add2694f0e">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="02462306-bdba-48b1-89b7-1152edc778cf">
+                    <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+                    <ColumnID>id_alojamiento</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b9f2baf3-cc55-48c9-865b-af57cf287da1">
+          <CubeDimensionID>Excursion</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="87d8ad69-5465-450b-94ee-3a2f94951166">
+              <AttributeID>id_Excursion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="62b535ab-62ed-4922-b0bb-f2d7e2742567">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="245ee635-6930-433b-8dd3-aed214205404">
+                    <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+                    <ColumnID>id_excursion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9f2d58f5-3c59-4ee1-971a-d05e37b9b8bd">
+          <CubeDimensionID>Parque</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1a687540-f37e-4610-afb3-aac89bb7fc4b">
+              <AttributeID>id_Parque</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a1be0158-00c3-4719-9c5a-5ecb194ab63f">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="28e7f55b-b5e6-490b-b037-b8cde201647e">
+                    <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+                    <ColumnID>id_parque</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a63aab49-c247-45a3-9a6b-a1dc6eee1bbc">
+          <CubeDimensionID>Empresa</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b7559632-2a8c-4e0c-bd63-b10ea1515d88">
+              <AttributeID>id_Empresa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f19c785b-318e-4610-8178-284ab3d73bfa">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33bcd7d9-8fa6-4d93-9996-2abff3f2afa6">
+                    <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+                    <ColumnID>id_empresa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b8bf6a18-35ce-4a21-9115-e34bd833bd7a">
+          <CubeDimensionID>Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d275eb20-f405-4b58-baf5-afd6d1e74ca3">
+              <AttributeID>id_Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bc495869-7728-4946-9a53-d1ccd4916f1c">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="04315b33-9350-431d-9dd5-5406781acd62">
+                    <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+                    <ColumnID>id_tiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="605b53c9-0a2a-4f5e-9c6c-36147ed8926d">
+    <DataSourceViewID>DW Green Tec 2</DataSourceViewID>
+  </Source>
+</Cube>

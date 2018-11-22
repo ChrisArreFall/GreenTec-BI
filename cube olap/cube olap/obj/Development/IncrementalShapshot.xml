@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>cube olap</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>6ATZxeDRbeIE7eE2o2wYtw==22/11/2018 10:45:4222/11/2018 10:45:42</TimeStamp>
+        <ID>
+          <String>DW Green Tec 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>HXaajlO0PYwuVhncDcOlbA==22/11/2018 10:58:1122/11/2018 10:30:21</TimeStamp>
+        <ID>
+          <String>DW Green Tec 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RB1KiELXhNyGQ/7S1StI2g==22/11/2018 10:30:5022/11/2018 10:30:50</TimeStamp>
+        <ID>
+          <String>Alojamiento</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2WKS2QRVNtdNHkdxq4M1WA==22/11/2018 10:31:0722/11/2018 10:31:07</TimeStamp>
+        <ID>
+          <String>Excursion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Dt74s2Kfy3FzBsa5NZnWfQ==22/11/2018 10:31:2722/11/2018 10:31:26</TimeStamp>
+        <ID>
+          <String>Parque</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BG6rx40o1fuAnYj/bwXdxg==22/11/2018 10:32:0022/11/2018 10:32:00</TimeStamp>
+        <ID>
+          <String>Empresa</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/p3sWPZBvvh11E3YR64fZQ==22/11/2018 10:38:3122/11/2018 10:38:31</TimeStamp>
+        <ID>
+          <String>Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>C5ctXYF/6JYrUQloZIvLkg==22/11/2018 10:52:1022/11/2018 10:52:10</TimeStamp>
+        <ID>
+          <String>COSTOS GASTOS UTILIDADES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ZSDTo3cZBkrspqtHxGqM5Q==22/11/2018 10:52:2722/11/2018 10:52:27TDKehz+I0/wm0dcuVQclow==22/11/2018 10:52:2722/11/2018 10:52:27</TimeStamp>
+        <ID>
+          <String>DW Green Tec 2</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>3QletUhh+HHKixSQWbbxsw==21/11/2018 4:28:1321/11/2018 4:28:13</TimeStamp>
+      <ID>
+        <String>cube olap</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-11-22T16:58:15.973333Z</LastDeployed>
+</DeploymentSnapshot>

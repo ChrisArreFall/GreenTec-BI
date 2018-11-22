@@ -1,0 +1,232 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b138a7d9-07a7-4082-8bc7-f8aed01ecc45" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>COSTOS GASTOS UTILIDADES</ID>
+  <Name>COSTOS GASTOS UTILIDADES</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8aee496e-d730-47e1-813b-03e3c6c59449">
+    <DataSourceViewID>DW Green Tec 2</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="c6d02fac-2bf0-4567-9d1c-453e8859b0b3">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a88942d1-e4df-4670-90bc-54dd02d0f23e">
+      <ID>Id Fact</ID>
+      <Name>Id Fact</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1453e5e-db5c-4059-b40d-a297e197dd30">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3ae2e8ab-9d12-46b3-b7c7-f0515a5729e8">
+            <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+            <ColumnID>id_fact</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3c69baaa-017c-4224-aaf8-414319b03728">
+          <AttributeID>Ventas</AttributeID>
+          <Name>Ventas</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="62e4ac5c-033c-43ab-bcc0-474f64da283a">
+          <AttributeID>Gastos</AttributeID>
+          <Name>Gastos</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="07fec4ef-5a98-4e3c-8eaa-cb20ac1a3493">
+          <AttributeID>Utilidades</AttributeID>
+          <Name>Utilidades</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8fd2a760-3c87-40ec-b732-d292ea0d551e">
+          <AttributeID>Id Alojamiento</AttributeID>
+          <Name>Id Alojamiento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5eac0647-4bc4-4475-9ac4-3e0e92dbfb27">
+          <AttributeID>Id Excursion</AttributeID>
+          <Name>Id Excursion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7329f69d-a852-48d4-9e94-613d2ad0a66d">
+          <AttributeID>Id Parque</AttributeID>
+          <Name>Id Parque</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="caac12e0-2626-48c2-b528-ead4b47cae9b">
+          <AttributeID>Id Empresa</AttributeID>
+          <Name>Id Empresa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="40bbe901-b23d-4e2b-af58-305e28a02a7a">
+          <AttributeID>Id Tiempo</AttributeID>
+          <Name>Id Tiempo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9f75e89c-1295-4ad0-a5bb-94690a3a732b">
+      <ID>Ventas</ID>
+      <Name>Ventas</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="30f4220e-b012-4866-92b6-9356382fc10d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="51abd612-a209-48da-8b95-76e2cac94a8c">
+            <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+            <ColumnID>ventas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="83918936-fa39-4108-ac4e-23b583ecb01d">
+      <ID>Gastos</ID>
+      <Name>Gastos</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8ef8f602-a198-4db4-83b5-295138625d1a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ecd98819-2f8e-4397-99c6-37cf88a7a260">
+            <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+            <ColumnID>gastos</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71ba9500-be7f-4497-ac38-47e5b453cd9f">
+      <ID>Utilidades</ID>
+      <Name>Utilidades</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8ec93c12-ced9-4675-8f70-0907f338c9aa">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="54e76ab9-9aa2-4b28-a9e9-601e23f02c6f">
+            <TableID>dbo_COSTOS_GASTOS_UTILIDADES</TableID>
+            <ColumnID>utilidades</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="de9ad756-5a80-4027-90e1-3bd1edc027cb">
+      <ID>Id Alojamiento</ID>
+      <Name>Id Alojamiento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c30d2d2a-8953-4fcd-89b6-eabb0fc0e5aa">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d79672f2-ffc0-4c75-9a73-c90dd9c1a1a5">
+            <TableID>dbo_Alojamiento</TableID>
+            <ColumnID>id_Alojamiento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="92bb1e8d-bab6-408e-9b08-3230511c8763">
+      <ID>Id Excursion</ID>
+      <Name>Id Excursion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec0e0618-2250-4baf-928e-b78fdbe13f9d">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df32acdb-684f-4729-a98e-8d4d87eab419">
+            <TableID>dbo_Excursion</TableID>
+            <ColumnID>id_excursion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3adca42-7351-4b5d-8631-aec9f515be56">
+      <ID>Id Parque</ID>
+      <Name>Id Parque</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="973325cd-d004-4c47-991c-8afa1dd0a560">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fce35bcb-b5e2-4114-a5be-93204af36313">
+            <TableID>dbo_Parque</TableID>
+            <ColumnID>id_parque</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15afe57c-d6ed-4737-9b66-542b67033578">
+      <ID>Id Empresa</ID>
+      <Name>Id Empresa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6a35c4e2-de98-4969-91af-62c6a37e5b56">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da66cf3f-4400-4df5-a103-4fa97f8551b6">
+            <TableID>dbo_Empresa</TableID>
+            <ColumnID>id_empresa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a5b51e5a-0e8c-46e6-9bfc-3b59460ccf33">
+      <ID>Id Tiempo</ID>
+      <Name>Id Tiempo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c33f3a60-b116-4456-b41e-f9ef79c62d71">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="125be971-52b6-42a0-9708-cf55799628b3">
+            <TableID>dbo_Tiempo</TableID>
+            <ColumnID>id_tiempo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

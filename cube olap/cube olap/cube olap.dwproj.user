@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DW Green Tec 2</Id>
+            <Name>DW Green Tec 2</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxECqS5ARPkKscAGi5h3ZewAAAAAeAAAARABXACAARwByAGUAZQBuACAAVABlAGMAIAAyAAAAEGYAAAABAAAgAAAA4o/aBLhlJT7mcKgJyTdI8OhNxS6LDYgZzz18NdDvT2UAAAAADoAAAAACAAAgAAAAf6ooixhBcRD0+ZOeBJb8f7zgS90m6L1o8vcwb+7hvZMQAAAAVr4/lWVTk+yNly/wHV3Mq0AAAAAc6BD0/vfSDeIG22SXhRSaPev8P6du8nVeGhkjkKeRHZkT8uuzRt3A3yS/r7CG47BVGh/KTqei+87frc+adce2</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DW Green Tec 2</Id>
+            <Name>DW Green Tec 2</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxECqS5ARPkKscAGi5h3ZewAAAAAeAAAARABXACAARwByAGUAZQBuACAAVABlAGMAIAAyAAAAEGYAAAABAAAgAAAAey/9lFYLhgl7H1eOIneekOTO9SGqXOdwMS8C9b3PJikAAAAADoAAAAACAAAgAAAAqlEzjgruq/IrFbY9bsw4jOVeFUTYQymlGCq3mH9Q+g0gAAAAGgUq4RTlbvW8BuiIbZhHUMooGlVIla8OaBauxlTrpYNAAAAApI1l+4235/VyV37O2muwpVXYCPdjgxrff1IBrk8COtHsA25TEZU9zJnylhT3XrV9wNrOVmcuIU9cWb54kfgF1A==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>cube olap</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
